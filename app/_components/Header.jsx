@@ -9,9 +9,6 @@ const Header = () => {
             className=''
             />
         </div>
-        <div>
-            asdasdasd
-        </div>
     </div>
   )
 }

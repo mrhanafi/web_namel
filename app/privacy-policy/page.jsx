@@ -12,7 +12,7 @@ const Page = () => {
   const getData = async () => {
 
     const datapp = await axios.get('https://sitebe.namelsolutions.com/api/privacy-policy');
-    console.log(datapp);
+    // console.log(datapp);
     setData(datapp?.data?.data)
   }
 

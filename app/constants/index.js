@@ -48,7 +48,7 @@ export const ServiceData = [
   icon: RxMobile,
   title: "Point-Of-Sale Mobile App",
   client: "Pak Lang Car Wash",
-  content: "Implementing POS mobile app to record sales daily and monthly. The important feature is point collection for each service and can be claimed once point collected. Benefitting customers to claim free wash or product sold on premise hence grow the business",
+  content: "Implementing POS mobile app to record sales daily and monthly. The main feature is the point collection for each service and can be claimed once point collected. Benefitting customers to claim wash service and products sold on premise hence grow the business",
   backgroundImage: azaria,
 },
     {

@@ -38,7 +38,7 @@ const ProjectSlider = () => {
           >
               {ServiceData.map((item) => (
                   <SwiperSlide key={item.title} onClick={() => setActive(item.id)}>
-                      <div className='flex flex-col gap-6 mb-20 group relative shadow-lg text-white rounded-xl px-6 py-8 overflow-hidden cursor-pointer'>
+                      <div className='flex flex-col gap-6 mb-20 group relative shadow-lg text-white rounded-xl px-6 overflow-hidden cursor-pointer'>
                           <div className='absolute inset-0'>
                               <Image src={item.backgroundImage} alt="mockup" width={1000} height={1000} className='rounded-xl  bg-cover bg-center' />
                           </div> 

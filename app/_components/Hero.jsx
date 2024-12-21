@@ -36,7 +36,7 @@ const Hero = () => {
                   </h1>
               </div>
                 <div>
-                <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
+                <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Simplifying technology with solutions that drive efficiency, security and business growth</p>
                   
               </div>
           </div>

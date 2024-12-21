@@ -48,11 +48,16 @@ const Projects = () => {
                 initial={{ opacity:0,x:-100 }}
                 transition={{ duration:1.5 }}
             className="my-5 w-14 h-1 border-t-0 bg-green-700 dark:bg-white/10" />
+            <motion.p 
+            whileInView={{ opacity:1,x:0 }}
+            initial={{ opacity:0,x:-100 }}
+            transition={{ duration:2 }}
+            className='text-md mb-5 font-light italic'>{data.client}</motion.p>
           <motion.p
           whileInView={{ opacity:1,x:0 }}
                 initial={{ opacity:0,x:-100 }}
-                transition={{ duration:2 }}
-          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, nam iure eius voluptatem odit veniam quo sequi similique iusto labore blanditiis corrupti reiciendis id commodi doloremque dolor fugiat cumque natus?</motion.p>
+                transition={{ duration:2.5 }}
+          >{data.content}</motion.p>
         </div>
         <div className='col-span-2'>
           <Swiper
@@ -80,8 +85,8 @@ const Projects = () => {
                     >
             {ServiceData.map((item,index) => (
               <SwiperSlide key={item.title} onClick={() => showData(index)}>
-                <div className='flex flex-col gap-6 mb-20 group relative shadow-lg text-white rounded-xl px-6 py-10 h-[200px] lg:h-[350px] overflow-hidden cursor-pointer'>
-                  <Image src={item.backgroundImage} alt='images' width={300} height={300} className='absolute rounded-xl inset-0 flex w-auto' />  
+                <div className='flex flex-col gap-6 mb-20 group relative shadow-lg text-white rounded-xl px-6 py-10 h-[200px] sm:h-[150px] lg:h-[250px] overflow-hidden cursor-pointer'>
+                  <Image src={item.backgroundImage} alt='images' width={600} height={300} className='absolute rounded-xl inset-0 flex w-max bg-cover sm:w-auto' />  
                   <div className='absolute inset-0 bg-black opacity-10 group-hover:opacity-50 rounded-xl' />
                   <div className='relative flex flex-col gap-3'>
                     <item.icon className='text-green-600 group-hover:text-green-400 w-[32px] h-[32px]' />
